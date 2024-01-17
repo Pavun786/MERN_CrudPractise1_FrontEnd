@@ -1,5 +1,6 @@
-import { children } from "react";
+import { Children} from "react";
 import { Navigate } from "react-router-dom";
+
 
 
 const ProtectedRoute = () =>{
@@ -8,7 +9,7 @@ const ProtectedRoute = () =>{
 
     return(
       <div>
-        {isAuth ? children : <Navigate replace to ="/"/>}
+        {isAuth ? Children : <Navigate replace to ="/"/>}
       </div>
     )
 }
