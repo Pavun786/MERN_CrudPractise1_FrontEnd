@@ -1,0 +1,111 @@
+/* .container{
+  
+} */
+
+/* .getpage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.heading{
+  text-align: center;
+}
+
+.editpage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+} */
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+ 
+}
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 120px;
+  
+}
+
+input{
+  width: 220px;
+  height: 22px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.login{
+  border: 2px solid black;
+  padding: 50px;
+  
+}
+
+.btns{
+  display: flex;
+  justify-content: space-around;
+}
+
+.loginBtn,.forgetBtn,.formBtn{
+  background-color: rgb(96, 96, 233);
+  color: whitesmoke;
+  padding: 8px;
+  border-radius: 5px;
+  
+}
+
+.formBtn:hover{
+  color:yellow;
+}
+
+.registerBtn{
+  background-color: rgb(96, 96, 233);
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.register{
+  border: 2px solid black;
+  padding: 40px;
+}
+
+tr,td{
+  padding: 10px;
+  text-align: center;
+}
+th{
+  text-align: center;
+}
+tr,td{
+  border-bottom: 1px solid black;
+}
+
+.viewBtn{
+  background-color:yellow;
+  color:black;
+  padding: 5px;
+}
+
+.editBtn{
+  background-color: blue;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+.deleteBtn{
+  background-color:red;
+  color: whitesmoke;
+  padding: 5px;
+}
+
